@@ -1,3 +1,11 @@
+
+/* E' solo una struttura iniziale.
+Ho capito la struttura del framework e la funzionalità delle media queries ma in questo caso devo ancora trovare una soluzione. Alcune cose mi funzionano tramite specifiche media queries ma non tramite l' iniezione delle classi predefinite del framework. */
+
+
+
+
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
