@@ -1,0 +1,185 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.logo img {
+  width: 50%;
+}
+
+.nav_item{
+  float: right;
+  margin-right: 40px;
+}
+
+.nav_item li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.nav_item li a {
+  padding-right: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+
+.banner {
+  position: relative;
+  height: 70vh;
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+}
+
+.banner_content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title, .slogan {
+  color: white;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.store div {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.store {
+  position: relative;
+}
+
+.appstore, .googleplay {
+  position: absolute;
+  left: 50%;
+}
+
+.appstore .link {
+  margin-left: -102%;
+}
+
+.title, .slogan, .store {
+   margin-bottom: 20px;
+ }
+
+.box_1, .box_2 {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+.box_1 {
+  float: left;
+}
+
+.box_2 {
+  float: right;
+}
+
+.name, .description, .info {
+  text-align: center;
+}
+
+.name {
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+.description, .info {
+  padding-top: 20px;
+}
+
+.info a {
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+}
+
+.photo img {
+  width: 40%;
+  transform: translateX(75%);
+  padding-top: 10px;
+}
+
+.nav i {
+  color: black;
+  display: none;
+}
+
+
+/* MEDIA QUeRIES */
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .nav_item {
+    display: none;
+  }
+  .nav i {
+    display: block;
+    float: right;
+    margin-right: 10px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .slogan {
+    font-size: 12px;
+  }
+
+  .banner {
+    background-size: cover;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav_item {
+    display: none;
+  }
+  .nav i {
+    display: block;
+    float: right;
+    margin-right: 10px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .slogan {
+    font-size: 10px;
+  }
+
+  .banner {
+    background-size: cover;
+  }
+
+  .box_1, .box_2 {
+    float: none;
+    width: 100%;
+  }
+}
